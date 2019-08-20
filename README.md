@@ -96,7 +96,7 @@ Using a class name in the ul remove all of the li's bullet points in the list of
 
 # Question 7.
 
-In the ol change only the last child element to be bold. Look it up!
+In the ol change only the last child element to be bold.
 
 # Question 8.
 
