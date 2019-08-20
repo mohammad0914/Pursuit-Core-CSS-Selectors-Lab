@@ -56,9 +56,9 @@ Use the HTML below for the following questions:
     </div>
 
     <ul>
-      <li> <a href="github.com">github link</a> </li>
-      <li> <a href="linkedin.com">LinkedIn link</a> </li>
-      <li> <a href="angellist.com">Angel list link</a> </li>
+      <li> <a href="https://github.com">github link</a> </li>
+      <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
+      <li> <a href="https://angellist.com">Angel list link</a> </li>
     </ul>
 
     <form action="index.html" method="post">
