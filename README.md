@@ -1,6 +1,22 @@
-# Pursuit-Core-CSS-Selectors-Lab
+[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
 
-Use the HTML below for the following questions:
+# CSS Selectors Lab
+
+## Getting Started 
+* Fork this repo
+* Clone the forked repository
+* `cd` to the directory where you cloned it
+* `npm install` to install dependencies
+* `npm run cypress:open` to run the tests
+
+> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+
+## Submission Guidelines
+  * When finished, commit and push your work.
+  * Make a pull request on github.`
+  * Submit the link to your pull request on Canvas. 
+
+This repo has an `about.html` file inside of it, as well as a `styles.css` file.  Edit the CSS file to implement the changes below.
 
 <details>
 <summary>HTML</summary>
@@ -11,6 +27,7 @@ Use the HTML below for the following questions:
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
@@ -35,7 +52,7 @@ Use the HTML below for the following questions:
       </ul>
 
       <ol>
-        <h3>Librarys</h3>
+        <h3>Libraries</h3>
         <li>React</li>
         <li>PostgreSQL</li>
         <li>Node</li>
@@ -71,68 +88,38 @@ Use the HTML below for the following questions:
 </details>
 
 
-# Question 1.
+![styledpage](tbd)
 
-Add a link in the index.html to a css file.
-# Question 2.
+## CSS changes:
 
-Assign a class to all header tags and make them all underlined and bold.
+- Assign a class named `important` to all header tags and make them all underlined and bold.
+- Give the h3 header with the text "Here are some of my Skills!" a unique id `skills-header` and make turn it RebeccaPurple in color.
+- All links that end in .com should be the color green after the link is visited.
+- Give the unordered list of links a class name of `links-list` and make it have a 🌐 symbol as a bullet point.
+- In all ordered lists change only the last child element to be bold.
+- Give <a> elements with an href ending ".com" a hover effect of turning red.
+- Give all other <a> elements with an href a hover effect of turning orange.
+- Center all text inside the body.
+- Give your languages unordered list an id of `langaguage-list`, and change its font to be in italics.
+- Make the second p tag in the div have the a background-color of rgba(0,0,0,.5).
 
-# Question 3.
+## Extra problems from w3school
 
-Change the size of all img tags that have a src that starts with https.
-
-# Question 4.
-
-Give the h1 tag a unique id and make turn it to the color of your choice.
-
-# Question 5.
-
-All links that end in .com should be the color green after a visit to the link.
-
-# Question 6.
-
-Using a class name in the ul remove all of the li's bullet points in the list of .coms.
-
-# Question 7.
-
-In the ol change only the last child element to be bold.
-
-# Question 8.
-
-Give the contact email a hover effect of turning red.
-
-# Question 9.
-
-Give all other links a hover effect of turning orange.
-
-# Question 10.
-
-Inside of your languages ul, change the font to be in italics.
-
-# Question 11.
-
-Center all text inside the body.
-
-# Question 12.
-
-In the hardest bug so far, change only the first p tag using a selector on the div. Give it this: background-color: rgba(0,0,0,.5);
-
-# Question 13. Combinators practice from w3schools
+### Combinators
 
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators1
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators2
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators3
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_combinators4
 
-# Question 14. Pseudo-classes practice from w3schools
+### Pseudo-classes
 
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes1
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes2
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes3
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes4
 
-# Question 15. Pseudo-elements practice from w3schools
+### Pseudo-elements
 
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_elements1
 - https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_elements2
