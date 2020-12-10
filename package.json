@@ -1,0 +1,19 @@
+{
+  "name": "pursuit-core-css-selectors-lab",
+  "version": "1.0.0",
+  "description": "[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/Pursuit-Core-CSS-Selectors-Lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/Pursuit-Core-CSS-Selectors-Lab/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/Pursuit-Core-CSS-Selectors-Lab#readme"
+}
