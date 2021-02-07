@@ -98,8 +98,8 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
 - All links that end in .com should be the color green after the link is visited.
 - Give the unordered list of links a class name of `links-list` and make it have a 🌐 symbol (`https://github.githubassets.com/images/icons/emoji/unicode/1f310.png`) as a bullet point.
 - In all ordered lists change only the last child element to be bold.
-- Give <a> elements with an href ending ".com" a focus effect of turning red.
-- Give all other <a> elements with an href a focus effect of turning orange.
+- Give <a> elements with an href ending ".com" a hover effect of turning red.
+- Give all other <a> elements with an href a hover effect of turning orange.
 - Center all text inside the body.
 - Give your languages unordered list an id of `langaguage-list`, and change its font to be in italics.
 - Make the second p tag in the div have the a background-color of rgba(0,0,0,.5).

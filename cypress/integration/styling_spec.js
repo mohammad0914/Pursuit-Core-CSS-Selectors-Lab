@@ -45,7 +45,7 @@ describe("Styling", () => {
     );
   });
 
-  it("the first child element in all ordered lists are bold", () => {
+  it("the first child element in all ordered lists are not bold", () => {
     cy.get("ol li:first-child").should("not.have.css", "font-weight", "700");
   });
 
@@ -54,18 +54,18 @@ describe("Styling", () => {
   });
 
   // https://github.com/cypress-io/cypress/issues/311
-  it.skip("links ending in .com are red when focused", () => {
+  it.skip("links ending in .com are red when hovered", () => {
     cy.get('a[href="https://github.com"]')
       .first()
-      .focus()
+      .hover()
       .should("have.css", "color", "rgb(255,0,0)");
   });
 
   // https://github.com/cypress-io/cypress/issues/311
-  it.skip("links not ending in .com are orange when focused", () => {
+  it.skip("links not ending in .com are orange when hovered", () => {
     cy.get('a[href="https://pursuit.org"]')
       .first()
-      .focus()
+      .hover()
       .should("have.css", "color", "rgb(0,128,0)");
   });
 
@@ -74,7 +74,7 @@ describe("Styling", () => {
   });
 
   it("tags marked as language-list have italicized font", () => {
-    cy.get("#language-list").should("have.css", "font-style", "italic");
+    cy.get("ul#language-list").should("have.css", "font-style", "italic");
   });
 
   it("second p tag in the div has the background color of rgba(0,0,0,.5)", () => {
