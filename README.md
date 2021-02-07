@@ -2,21 +2,23 @@
 
 # CSS Selectors Lab
 
-## Getting Started 
-* Fork this repo
-* Clone the forked repository
-* `cd` to the directory where you cloned it
-* `npm install` to install dependencies
-* `npm test` to open the cypress window
+## Getting Started
 
-> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+- Fork this repo
+- Clone the forked repository
+- `cd` to the directory where you cloned it
+- `npm install` to install dependencies
+- `npm test` to open the cypress window
+
+> _Note_: Remember to `git add`, `git commit` and `git push` regularly
 
 ## Submission Guidelines
-  * When finished, commit and push your work.
-  * Make a pull request on github.`
-  * Submit the link to your pull request on Canvas. 
 
-This repo has an `about.html` file inside of it, as well as a `styles.css` file.  Edit the CSS file to implement the changes below.
+- When finished, commit and push your work.
+- Make a pull request on github.`
+- Submit the link to your pull request on Canvas.
+
+This repo has an `about.html` file inside of it, as well as a `styles.css` file. Edit the HTML and CSS files to implement the changes below.
 
 <details>
 <summary>HTML</summary>
@@ -33,8 +35,9 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
     <h1>Your Name Here</h1>
     <div>
       <p>
-        This is a bunch of information about myself. I'm from here and there and discovered my love
-        of programming when this happened. When I'm not working I'm busy doing this and that.
+        This is a bunch of information about myself. I'm from here and there and
+        discovered my love of programming when this happened. When I'm not
+        working I'm busy doing this and that.
       </p>
     </div>
 
@@ -45,7 +48,7 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
 
     <div>
       <h2>Here are some of my Skills!</h2>
-        
+
       <h3>Languages</h3>
       <ul>
         <li>JavaScript</li>
@@ -54,7 +57,7 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
         <li>CSS3</li>
       </ul>
 
-        <h3>Libraries</h3>
+      <h3>Libraries</h3>
       <ol>
         <li>React</li>
         <li>PostgreSQL</li>
@@ -65,12 +68,18 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
 
     <div>
       <h2>Hardest Bug So Far</h2>
-      <p>My hardest bug I ever came across was this infinite loop I couldn't escape.</p>
+      <p>
+        My hardest bug I ever came across was this infinite loop I couldn't
+        escape.
+      </p>
       <p>I came up with a totally sick solution though by doing ...</p>
     </div>
 
     <h2>Contact Me</h2>
-    <div>Email me at: <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a></div>
+    <div>
+      Email me at:
+      <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
+    </div>
 
     <ul>
       <li><a href="https://github.com">github link</a></li>
@@ -86,10 +95,10 @@ This repo has an `about.html` file inside of it, as well as a `styles.css` file.
   </body>
 </html>
 ```
+
 </details>
 
-
-![styledpage](tbd)
+![styledpage](./styled_page.png)
 
 ## CSS changes:
 
