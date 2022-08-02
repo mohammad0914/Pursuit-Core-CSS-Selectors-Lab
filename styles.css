@@ -38,8 +38,8 @@ h3 {
 }
 
 html {
-    background-color: rgb(159,193,201);
-    background: radial-gradient(circle, rgba(159,193,201,1) 9%, rgba(224,209,221,1) 52%, rgba(0,212,255,1) 100%);
+    background-color: rgb(159, 193, 201);
+    background: radial-gradient(circle, rgba(159, 193, 201, 1) 9%, rgba(224, 209, 221, 1) 52%, rgba(0, 212, 255, 1) 100%);
 }
 
 p {
@@ -47,6 +47,31 @@ p {
     padding-bottom: 20px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-size: 20px;
+}
+
+.important {
+    font-size: bold;
+    text-decoration: underline;
+
+}
+
+#skills-header {
+    color: rebeccapurple;
+}
+
+a[href$=".com"]:visited {
+    color: green;
+}
+
+.links-list {
+
+    list-style: outside url("https://github.githubassets.com/images/icons/emoji/unicode/1f310.png") disc
+}
+
+ol li:last-of-type {
+    font-weight: bold;
+    color: red;
 }
